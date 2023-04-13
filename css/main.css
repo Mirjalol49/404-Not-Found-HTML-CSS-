@@ -111,3 +111,33 @@ body{
     border: none;
     margin-bottom: 30px;
 }
+/* 
+MOBILE VERSION STARTS FROM HERE */
+
+@media screen  and (max-width: 375px){
+    .main-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .img-notfound {
+        width: 286px;
+        height: 238px;
+    }
+    
+    .main-title {
+        font-size: 48px;
+        line-height: 71px;
+        width: 350px;
+    }
+    
+    .main-subtitle {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    
+}
+/* 
+MOBILE VERSION STARTS ENDS HERE */
